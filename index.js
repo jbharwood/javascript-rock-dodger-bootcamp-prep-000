@@ -132,6 +132,7 @@ function endGame() {
   for (var i = 0; i < ROCKS.LENGTH; i++) {
     ROCKS[i].pop()
   }
+  alert("YOU LOSE!")
 }
 
 function moveDodger(e) {
