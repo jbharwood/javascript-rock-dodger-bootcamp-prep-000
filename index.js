@@ -132,7 +132,7 @@ function endGame() {
   for (var i = 0; i < ROCKS.LENGTH; i++) {
     ROCKS[i].pop()
   }
-  'moveDodger'.removeEventListener()
+  moveDodger.removeEventListener()
   alert("YOU LOSE!")
 }
 
